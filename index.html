@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <script src="js.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <center>
+<h1>Kalkulator</h1>
+<div class="output"><p>Wynik: <span id="wynik"></span></p></div>
+<div >
+    <button id="0" type="button" onclick="cyfra(this.id)">0</button>
+    <button id="1" type="button" onclick="cyfra(this.id)">1</button>
+    <button id="2" type="button" onclick="cyfra(this.id)">2</button>
+    <button id="3" type="button" onclick="cyfra(this.id)">3</button><br />
+
+
+
+    <button id="4" type="button" onclick="cyfra(this.id)">4</button>
+    <button id="5" type="button" onclick="cyfra(this.id)">5</button>
+    <button id="6" type="button" onclick="cyfra(this.id)">6</button>
+    <button id="7" type="button" onclick="cyfra(this.id)">7</button><br />
+
+
+    <button id="8" type="button" onclick="cyfra(this.id)">8</button>
+    <button id="9" type="button" onclick="cyfra(this.id)">9</button>
+    <button id="c" type="button" onclick="kasuj()">C</button>
+    <button id="equ" type="button" onclick="oper(this.id)">=</button><br />
+
+
+
+    <button id="add" type="button" onclick="oper(this.id)">+</button>
+    <button id="sub" type="button" onclick="oper(this.id)">-</button>
+    <button id="mul" type="button" onclick="oper(this.id)">x</button>
+    <button id="div" type="button" onclick="oper(this.id)">/</button>
+    
+</div>
+</center>
+</body>
+</html>
